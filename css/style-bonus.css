@@ -1,6 +1,28 @@
 /* COLUMN SETTINGS */
 [class*="col-"] {
   border: 1px solid black;
-  height: 50px;
+  height: 80px;
 }
 /* COLUMN SETTINGS */
+
+#orange {
+  background: orange;
+}
+
+#yellow {
+  background: yellow;
+}
+
+#black {
+  background: black;
+}
+
+#brown {
+  background: brown;
+}
+
+.col-1 h2 {
+  color: white;
+  text-align: center;
+  line-height: 80px;
+}
