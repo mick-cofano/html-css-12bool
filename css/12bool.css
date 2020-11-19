@@ -20,7 +20,9 @@
 [class*="col-"] {
   float: left;
 }
+/* ----- UTILITY ----- */
 
+/* ----- COLUMN SETTINGS ----- */
 .col-12 {
   width: 100%;
 }
@@ -68,3 +70,8 @@
 .col-1 {
   width: calc((100% / 12) * 1);
 }
+
+[class*="col-"] .container {
+  padding: 10px;
+}
+/* ----- COLUMN SETTINGS ----- */

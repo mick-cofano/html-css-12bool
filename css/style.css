@@ -1,3 +1,4 @@
+/* COLUMN SETTINGS */
 [class*="col-"] {
   border: 1px solid black;
   background: #FFC0CB;
@@ -5,3 +6,11 @@
   line-height: 300px;
   text-align: center;
 }
+
+[class*="col-"] .container [class*="col-"] {
+  height: 280px;
+  background: #F07F80;
+  border: 1px solid white;
+  line-height: 280px;
+}
+/* COLUMN SETTINGS */
